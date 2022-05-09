@@ -1,0 +1,12 @@
+body {
+    background-color:antiquewhite;
+}
+
+.cabecalho {
+    margin: 9rem 50rem;
+}
+
+h1 {
+    font-size: 46px;
+    color: rgb(4, 4, 54);
+}
