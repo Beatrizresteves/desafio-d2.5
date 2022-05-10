@@ -1,12 +1,143 @@
 body {
-    background-color:antiquewhite;
+    background-image: linear-gradient(90deg, #f7e0c1, #dea458 50%);
+}
+.background {
+    background-image: url(css3-gradient-pattern.png);
+    background-attachment: fixed;
+    background-image: linear-gradient(90deg, #f7e0c1, #dea458 50%);
+    padding: 2px;
 }
 
 .cabecalho {
-    margin: 9rem 50rem;
+    margin: 9rem 45rem;
+    
 }
 
 h1 {
     font-size: 46px;
-    color: rgb(4, 4, 54);
+    margin: 2px 11%;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.conteudo {
+    background-color: white;
+    margin: -5rem 24rem;
+    border-radius: 2rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.avatar {
+    width: 365px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 3rem;
+    margin-left: 2%;
+  }
+  
+.navigation {
+    text-align: center;
+    
+    
+}
+
+.navigation li {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px;
+    background-color: black;
+    border-radius: 2rem;
+    margin: 1rem 1rem;
+}
+
+.navigation a {
+font-size: 16px;
+color: aliceblue;
+font-weight: 900;
+text-decoration: none;
+
+}
+
+.fonte--media {
+    font-size: 22px;
+    text-align: justify;
+    margin: 1rem;
+
+}
+
+.logo img {
+    width: 130px;
+    margin: 77px 0px -7px 24%;
+
+}
+
+.logotipo img {
+    background-color: white;
+    width: 43px;
+    align-items: center;
+    margin: -35px 47%;
+    padding: 33px 8px 8px 12px;
+    transform: rotate(0deg);
+    border-radius: 3rem;
+}
+
+.titulo {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.fotos {
+    margin: 0% 12%;
+   
+}
+.fotos img {
+    width: 360px;
+    height: 330px;
+    margin: 8px 16px;
+    border-radius: 2rem;
+   
+}
+
+
+
+.habilidades progress {
+    accent-color: #dea458;
+    width: 21rem;
+    height: 30px;
+    margin: 0% 2%
+}
+
+.habilidades {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 12%;
+    padding: 32px;
+}
+
+.footer {
+    background-image: linear-gradient(90deg, #dea458, #f7e0c1 70%);
+    margin: -5px -5px -20px -8px;
+    height: 150px;
+    color:white;
+}
+.links{
+text-align: center;
+color:white;
+
+}
+
+.fa-github-alt:before {
+    content: "\f113";
+}
+.pa2 {
+width: 30px;
+color:white;
 }
